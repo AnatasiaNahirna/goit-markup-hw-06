@@ -1014,6 +1014,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     fill: transparent;
+    flex-shrink: 0;
 }
 
 .policy-checkbox:checked + .policy-label .checkbox {
@@ -1052,4 +1053,61 @@
 .form-submit-btn:hover,
 .form-submit-btn:focus {
     background-color: #404BBF;
+}
+
+.mob-form-hero {
+    width: 288px;
+    min-height: 623px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 72px 16px 24px;
+    border-radius: 4px;
+}
+
+.mob-hero-form-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 16px;
+}
+
+.mob-inp-div {
+    margin-bottom: 8px;
+}
+
+.mob-form-inp {
+    border: 1px solid rgba(46,47,66,0.4);
+    border-radius: 4px;
+    width: 256px;
+    height: 40px;
+    outline: none;
+    padding: 11px 34px;
+}
+
+.mob-comment-form {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 256px;
+    height: 120px;
+    padding: 8px 16px;
+    outline: none;
+}
+
+.mob-comment-form::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.mob-policy-label {
+   display: flex;
+    justify-content: center;
+    gap: 8px;
 }
