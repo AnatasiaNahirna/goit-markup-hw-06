@@ -179,7 +179,7 @@
         height: 100%;
         position: fixed;
         z-index: 999;
-        min-width: 320px;
+        width: 100%;
         padding-left: 10px;
         padding-right: 10px;
         display: flex;
@@ -469,6 +469,7 @@
 }
 
 .team-ul {
+    
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -496,6 +497,7 @@
         margin-bottom: 8px;
         align-self: center;
 }
+
 
 .team-text {
         font-size: 16px;
@@ -543,10 +545,18 @@
     .team-section {
         padding: 96px 108px;
     }
+    .team-container {
+        padding: 0;
+    }
 
     .team-ul {
         gap: 24px;
     }
+
+    .team-li {
+        width: 264px;
+    }
+
 }
 
 @media (min-width: 1440px) {
@@ -629,6 +639,10 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.portfolio-img {
+    width: 100%;
 }
 
 @media (min-width: 768px) {
