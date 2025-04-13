@@ -123,8 +123,8 @@
         </div>
       </section>
 
-      <section class="team-section section">
-        <div class="container team-container">
+      <section class="team-section">
+        <div class="team-container">
           <h2 class="section-title our-team">Our Team</h2>
           <ul class="team-ul">
             <li class="team-li">
@@ -308,7 +308,7 @@
       </section>
 
       <section class="portfolio-section">
-        <div class="container">
+        <div class="container portf-div">
           <h2 class="section-title portfolio-main-title">Our Portfolio</h2>
 
           <ul class="portfolio-list">
@@ -499,7 +499,7 @@
 
     <footer class="footer">
       <div class="container footer-div-all">
-        <div class="footer-div">
+        <div class="footer-div ft-text-div">
           <a href="./index.html" class="footer-logo"
             >Web<span class="logo-part-footer">Studio</span></a
           >
@@ -509,7 +509,7 @@
           </p>
         </div>
 
-        <div class="footer-div">
+        <div class="footer-div ft-icons-div">
           <p class="footer-media-text">Social media</p>
 
           <ul class="footer-icon-ul">
@@ -647,8 +647,10 @@
                   <use href="./images/icons.svg#iconVector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="policy-link">Privacy Policy</a>
+              <span class="checkbox-span">
+                I accept the terms and conditions of the
+                <a href="" class="policy-link">Privacy Policy</a>
+              </span>
             </label>
           </div>
 
@@ -722,100 +724,6 @@
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-
-    <div class="backdrop">
-      <div class="mob-form-hero">
-        <button class="form-close-btn" type="button">
-          <svg class="hero-form-close" width="8" height="8">
-            <use href="./images/icons.svg#iconclose-black-18dp-2-1"></use>
-          </svg>
-        </button>
-        <p class="mob-hero-form-p">
-          Leave your contacts and we will call you back
-        </p>
-
-        <form class="mob-hero-form-teg">
-          <div class="mob-inp-div">
-            <label for="mob-user-name" class="form-label">Name</label>
-            <div class="for-icon-div">
-              <input
-                type="text"
-                id="mob-user-name"
-                name="user-name"
-                class="mob-form-inp"
-              />
-              <svg class="name-svg" width="18" height="24">
-                <use href="./images/icons.svg#iconperson"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="mob-inp-div">
-            <label for="mob-name-inp-tel" class="form-label">Phone</label>
-            <div class="for-icon-div">
-              <input
-                type="tel"
-                id="mob-name-inp-tel"
-                name="phone"
-                class="mob-form-inp"
-              />
-              <svg class="name-svg" width="18" height="24">
-                <use href="./images/icons.svg#iconphone"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="mob-inp-div">
-            <label for="mob-name-inp-email" class="form-label">Email</label>
-            <div class="for-icon-div">
-              <input
-                type="email"
-                id="mob-name-inp-email"
-                name="name"
-                class="mob-form-inp"
-              />
-              <svg class="name-svg" width="18" height="24">
-                <use href="./images/icons.svg#iconemail"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="mob-inp-div area-div">
-            <label for="mob-user-comment" class="form-label">Comment</label>
-            <textarea
-              id="mob-user-comment"
-              name="user-comment"
-              class="mob-comment-form"
-              placeholder="Text input"
-            ></textarea>
-          </div>
-
-          <div class="policy-div">
-            <input
-              type="checkbox"
-              name="user-privacy"
-              id="mob-user-privacy"
-              value="true"
-              class="policy-checkbox visually-hidden"
-            />
-
-            <label for="mob-user-privacy" class="mob-policy-label policy-label form-label">
-              <span class="checkbox">
-                <svg class="policy-svg" width="10" height="8">
-                  <use href="./images/icons.svg#iconVector"></use>
-                </svg>
-              </span>
-              <span class="checkbox-span">
-              I accept the terms and conditions of the
-              <a href="" class="policy-link">Privacy Policy</a>
-              </span>
-            </label>
-            </div>
-            <button type="submit" class="form-submit-btn">Send</button>
-          </div>
-        </form>
       </div>
     </div>
   </body>
